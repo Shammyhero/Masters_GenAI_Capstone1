@@ -96,7 +96,7 @@ def run_agent(user_input: str):
                 "role": "system",
                 "content": """You are a helpful assistant for the Car Sales Data Insights App.
                 Use the tools responsibly.
-                Only run SELECT queries on the database.
+                Only generate and run SELECT queries on the database.
                 Table: car_sales
                 Columns:
                 "Car Make", "Car Model", "Year", "Mileage", "Price", "Fuel Type", "Color",
